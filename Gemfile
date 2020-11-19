@@ -16,6 +16,8 @@ gem 'rails_12factor', group: :production
 
 gem 'bootstrap-sass'
 # Use Puma as the app server
+
+gem 'stripe', => 'https://github.com/stripe/stripe-ruby'
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
