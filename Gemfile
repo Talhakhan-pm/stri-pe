@@ -18,6 +18,8 @@ gem 'bootstrap-sass'
 # Use Puma as the app server
 
 gem 'stripe', :git=> 'https://github.com/stripe/stripe-ruby'
+gem 'figaro'
+
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
