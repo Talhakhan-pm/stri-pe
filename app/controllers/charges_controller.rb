@@ -1,5 +1,4 @@
 class ChargesController < ApplicationController
-
     def create
         # Amount in cents
         @amount = 500
@@ -20,5 +19,5 @@ class ChargesController < ApplicationController
         flash[:error] = e.message
         redirect_to new_charge_path
       end
-      
+
 end
